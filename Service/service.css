@@ -1,0 +1,274 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.71429;
+  letter-spacing: 0.05em;
+}
+
+section { 
+  border-top: 120px solid #ffffff;
+  background: linear-gradient(to right, #EFFA4C, #ECF92A, #EAE614, #FECD12, #FCBA29);
+}
+
+.title {
+  width: 1049px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.box-icon-modern h5 {
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+.box-icon-modern {
+  text-align: justify;
+}
+
+.empowerment-fund {
+  text-align: left;
+}
+
+.box-icon-modern-text.empowerment-fund {
+  /* padding: 5px; */
+  margin: 5px;
+  justify-content: start;
+  width: 100%;
+}
+
+.box-icon-modern-text.empowerment-fund::before {
+  content: "";
+  border-color: transparent #000000;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0px;
+  width: 0;
+  left: -1em;
+  top: 4px;
+  position: relative;
+  margin: 0 0 -15px 5px;
+}
+
+.village-fund {
+  width: 60%;
+  text-align: left;
+  left: 50px;
+}
+
+.village-fund::before {
+  content: "";
+  border-color: transparent #000000;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0px;
+  width: 0;
+  left: -1em;
+  top: 4px;
+  position: relative;
+  margin: 0 0 -15px 5px;
+}
+
+@media (min-width: 992px) {
+  .section-inset-custom-6,
+  .section-x1 {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-x1 {
+    padding: 90px 0;
+  }
+
+  .section-60,
+  .section-md,
+  .section-lg,
+  .section-x1 {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container.section1 h1 {
+  margin-bottom: 20px;
+}
+
+.row-40 {
+  margin-bottom: -40px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+}
+
+.row-40 > * {
+  margin-bottom: 40px;
+}
+
+.col-md-6 {
+  /* filter: blur(3px); */
+  border: 2px solid #000000;
+  padding: 2px;
+}
+
+.col-md-6.col-lg-1,
+.col-md-6.col-lg-5,
+.col-md-6.col-lg-9,
+.col-md-6.col-lg-13 {
+  margin-left: 150px;
+}
+
+.col-md-6:hover {
+  /* filter: blur(0px); */
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+@media (min-width: 922px) {
+  .col-lg-4 {
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.box-icon-modern {
+  text-align: center;
+  max-width: 370px;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 66px 15px 50px;
+  background: #ffffff;
+  box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.17);
+  transition: all 0.3s ease;
+}
+
+.box-icon-modern-icon {
+  position: relative;
+  line-height: 1;
+  color: inherit;
+  z-index: 1;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+  margin-bottom: -40px;
+}
+
+.box-icon-modern-title {
+  margin-top: 50px;
+  margin-bottom: -25px;
+}
+
+@media (min-width: 768px) {
+  h5 {
+    font-size: 21px;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 1.114286;
+    letter-spacing: 0.2em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: 400;
+  color: #151515;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.box-icon-modern-decor {
+  position: relative;
+  max-width: 126px;
+  width: 100px;
+  height: 2px;
+  margin: 20px auto 22px;
+}
+
+.box-icon-modern-text {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* + p {
+  margin-top: 15px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+footer {
+  top: 50px;
+}
+
+.footer-bottom {
+  margin-top: 80px;
+}
