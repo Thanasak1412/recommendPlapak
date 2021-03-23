@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-self: center;
+  align-self: center;
+  min-height: 100vh;
+  background-color: #ff4f1a;
+  background-image: linear-gradient(315deg, #ff4f1a 0%, #ffd000 74%);
+}
+
+section {
+  position: relative;
+  top: 100px;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 36px;
+  height: 0px;
+}
+
+.background {
+  left: 100px;
+  top: 30px;
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: minmax(100px, auto);
+  margin: 40px;
+  grid-auto-flow: dense;
+  grid-gap: 10px;
+  left: 1.5px;
+}
+
+.background .box {
+  background: #ff9800;
+  padding: 20px 20px 0rem 20px;
+  padding-bottom: 0rem;
+  display: grid;
+  font-size: 18px;
+  place-items: grid;
+  text-align: center;
+  color: #000000;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.background .box:hover {
+  background: #ff5100;
+}
+
+.background .box img {
+  position: relative;
+  max-width: 100px;
+  margin-bottom: 10px;
+  border: 3px solid #111010;
+  border-radius: 3px;
+}
+
+.background .box:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.background .box:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.background .box:nth-child(4) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.background .box:nth-child(5) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.box .content p {
+  text-align: justify;
+}
+
+.box .content.government p {
+  text-align: left;
+}
+
+.box .content.government p:before {
+  content: "";
+  border-color: transparent #000000;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0px;
+  width: 0;
+  left: -1em;
+  top: 7px;
+  position: relative;
+  margin: 0 0 -15px 5px;
+}
+
+.box .content.government h4 {
+  margin: -15px 0px 0px 0px;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .background {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-rows: minmax(auto, auto);
+  }
+
+  .background .box {
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+}
+
+.content.slogan {
+  padding: 15px;
+  text-align: justify;
+}
+
+.content.slogan div,
+.content.slogan p {
+  padding: 0px 15px 15px 15px;
+}
+
+.content.slogan h5 {
+  padding: 15px;
+  font-size: 18px;
+}
+
+footer {
+  position: relative;
+  top: 100px;
+}
