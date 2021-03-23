@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(to right, #EFFA4C, #ECF92A, #EAE614, #FECD12, #FCBA29);
+}
+
+.footer {
+    font-size: large;
+    top: 100px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
